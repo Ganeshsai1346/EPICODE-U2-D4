@@ -5,6 +5,112 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+nav {
+  margin-right: 53rem;
+}
+.nav-link {
+  padding: 20px;
+  color: rgb(13, 13, 74);
+  text-decoration: none;
+}
+span {
+  vertical-align: middle;
+}
+.icons {
+  margin-right: 0;
+}
+.icon {
+  padding: 5px;
+}
+.bellImage {
+  border-radius: 50%;
+}
 .container {
-  max-width: 1200px;
+  max-width: 100%;
+}
+section {
+  display: flex;
+}
+.first {
+  color: white;
+  background-color: rgb(61, 61, 189);
+  background-position: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 408px;
+}
+
+h1 {
+  font-size: 40px;
+}
+.content > p {
+  font-size: 20px;
+  color: grey;
+  line-height: 30px;
+}
+.btn {
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(7, 133, 89);
+  color: white;
+  border-radius: 5px;
+}
+
+.btnOne {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.second {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  height: 100px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  line-height: 5px;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  line-height: 5px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  line-height: 5px;
+}
+.iconsTwo {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: rgb(247, 216, 180);
+}
+.third {
+  display: flex;
+}
+.courseImages {
+  width: 70px;
+  height: 50px;
+}
+.third {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }

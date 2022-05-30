@@ -8,17 +8,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Day 4 Excercise</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="navbar">
-      <nav>
-        <img src="/logo.svg" alt="logo" />
-        <a href="">Browse</a>
-        <a href="">Landings</a>
-        <a href="">Pages</a>
-        <a href="">Accounts</a>
-      </nav>
-    </div>
-    <div class="container"></div>
+    <header>
+      <div class="navbar">
+        <img class="logo" src="/logo.svg" alt="logo" />
+        <nav>
+          <a href="/" class="nav-link"
+            >Browse <span><img src="/chevron-down.svg" /></span
+          ></a>
+          <a href="/" class="nav-link"
+            >Landings <span><img src="/chevron-down.svg" /></span
+          ></a>
+          <a href="/" class="nav-link"
+            >Pages <span><img src="/chevron-down.svg" /></span
+          ></a>
+          <a href="/" class="nav-link"
+            >Accounts <span><img src="/chevron-down.svg" /></span
+          ></a>
+        </nav>
+        <div class="icons">
+          <a href="/" class="bellIcon"
+            ><img class="bellImage" src="/bell.svg" width="45" height="45"
+          /></a>
+          <a href="/" class="avatarIcon"
+            ><img class="bellImage" src="/avatar-1.jpg" width="45" height="45"
+          /></a>
+        </div>
+      </div>
+      <div class="container">
+        <section class="first">
+          <div class="content">
+            <h1>Welcome Web Students!</h1>
+            <p>
+              Hand-picked Instructor and expertly crafted <br />
+              courses, designed for the moderan students and <br />
+              entrepreneur.
+            </p>
+            <button class="btn">Browse Courses</button>
+            <button class="btnOne">Are You Instructor?</button>
+          </div>
+          <img class="heroImg" src="/hero-img.png" />
+        </section>
+      </div>
+      <section class="second">
+        <div class="left">
+          <div><img class="iconsTwo" src="/video.svg" /></div>
+          <div class="leftOne">
+            <h4>30,000 online courses</h4>
+            <p>Enjoy a varierty of fresh topics</p>
+          </div>
+        </div>
+        <div class="middle">
+          <div>
+            <img class="iconsTwo" src="/people-fill.svg" />
+          </div>
+          <div class="leftOne">
+            <h4>Expert instruction</h4>
+            <p>Find the right instructor for you</p>
+          </div>
+        </div>
+        <div class="right">
+          <div><img class="iconsTwo" src="/clock.svg" /></div>
+          <div class="leftOne">
+            <h4>Lifetime access</h4>
+            <p>Learn on your schedule</p>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <div class="container">
+        <div class="third">
+          <div><h3>Recommended to you</h3></div>
+          <div class="one">
+            <img class="courseImages" src="/course-graphql.jpg" alt="" />
+            <p>
+              GraphQL: introduction to <br />
+              grapghQL for beginners
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
